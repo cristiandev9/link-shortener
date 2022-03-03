@@ -1,0 +1,95 @@
+@keyframes slideX {
+    from {
+        transform: translateX(20px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+
+button{
+    cursor:pointer;
+}
+
+.home{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25rem;
+    background-color: #fff;
+    padding:15px;
+    border-radius: 10px;
+    
+  }
+
+  .content-initial{
+    animation: slideX 1s;
+  }
+  
+  .logoHome{
+    width:3rem;
+  }
+  
+  .div-input{
+    margin:10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+   
+  }
+  .div-input input{
+    background:none;
+    border: none;
+    outline: none;
+  }
+
+  .s-input{
+    flex-direction: row !important;
+    background-color: rgb(225, 235, 243);
+    height:1.8rem;
+    border-radius: 4px;
+    display:flex;
+}
+  
+.icon-link{
+    margin:5.4px 8px;
+}
+  
+.btn-enc-link{
+    margin-top:1.4rem;
+    background-color: #509CE9;
+    border: 1px solid #509CE9;
+    color:#fff;
+    width:100%;
+  }
+
+  .div-logo{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .div-logo h1{
+      color:#509CE9;
+      font-size:20px;
+      margin:10px;
+  }
+
+  .btn-enc-link:hover{
+      color:#509CE9;
+      border: 1px solid #509CE9;
+      background-color: transparent;
+  }
+
+  @media (max-width:433px){
+    .home{
+        width: 80%;
+    }
+  }
+
+
+  .access-link{margin-top:1rem}
